@@ -9,10 +9,8 @@ btn.addEventListener("click", function () {
     return;
   }
   else if (height<1 || weight<1) {
-    alert("Please enter positive values!")
+    alert("Please enter positive values.")
   }
-
-  // BMI = weight in KG / (height in m * height in m)
 else{
   height = height / 100;
 
